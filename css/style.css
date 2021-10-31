@@ -11,7 +11,7 @@
    background-position: right top;
 }
 .services__header {
-   margin-bottom: 36px;
+   margin-bottom: 83px;
 }
 .services__service-boxes {
    max-width: 1020px;
@@ -19,7 +19,7 @@
 }
 .header {
    max-width: 583px;
-   min-height: 134px;
+   /* min-height: 134px; */
 }
 .header__title {
    font-weight: bold;
@@ -52,13 +52,11 @@
 .box-content__item {
    display: inline-block;
    width: 324px;
-   min-height: 340px;
    background-color: #fff;
    border-radius: 10%;
    vertical-align: top;
    text-align: center;
-   padding-top: 50px;
-   padding-left: 43px;
+   padding: 50px 44px 50px 43px;
 }
 .box-content__content {
    width: 237px;
@@ -85,10 +83,10 @@
 .services__button-container {
    background-color: #f2726f;
    width: 145px;
-   height: 48px;
    border-radius: 5px;
    text-align: center;
    padding-top: 9px;
+   padding-bottom: 9px;
    margin: 0 auto;
 }
 .container-button__button {
@@ -106,6 +104,10 @@
 .services__button-container:hover {
    box-shadow: 0px 4px 4px rgba(38, 38, 38, 0.24);
 }
+.promise__header {
+   margin-bottom: 84px;
+}
+
 .promise {
    font-family: "Roboto", sans-serif;
    font-size: 0px;
@@ -122,8 +124,7 @@
 }
 .promise-boxes__item {
    display: inline-block;
-   width: 324px;
-   height: 148px;
+   min-width: 324px;
 }
 .promise-boxes__image {
    display: inline-block;
